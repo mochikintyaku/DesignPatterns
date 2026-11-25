@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 18
-VisualStudioVersion = 18.7.11925.98 stable
+VisualStudioVersion = 18.7.11925.98
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Bridge", "Bridge\Bridge.vcxproj", "{5F3AFFCB-4D55-4408-9B24-E6739BABD90C}"
 EndProject
@@ -18,6 +18,8 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Visitor_Modern", "Visitor_Modern\Visitor_Modern.vcxproj", "{AE91A7A1-982B-48CD-8686-1485AFAAB6CC}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Observer", "Observer\Observer.vcxproj", "{18678D8F-FADD-414D-A518-E085E5A1CD4A}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CRTP", "CRTP\CRTP.vcxproj", "{0945628A-E3F8-478A-B151-3A0EE17C0675}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -91,6 +93,14 @@ Global
 		{18678D8F-FADD-414D-A518-E085E5A1CD4A}.Release|x64.Build.0 = Release|x64
 		{18678D8F-FADD-414D-A518-E085E5A1CD4A}.Release|x86.ActiveCfg = Release|Win32
 		{18678D8F-FADD-414D-A518-E085E5A1CD4A}.Release|x86.Build.0 = Release|Win32
+		{0945628A-E3F8-478A-B151-3A0EE17C0675}.Debug|x64.ActiveCfg = Debug|x64
+		{0945628A-E3F8-478A-B151-3A0EE17C0675}.Debug|x64.Build.0 = Debug|x64
+		{0945628A-E3F8-478A-B151-3A0EE17C0675}.Debug|x86.ActiveCfg = Debug|Win32
+		{0945628A-E3F8-478A-B151-3A0EE17C0675}.Debug|x86.Build.0 = Debug|Win32
+		{0945628A-E3F8-478A-B151-3A0EE17C0675}.Release|x64.ActiveCfg = Release|x64
+		{0945628A-E3F8-478A-B151-3A0EE17C0675}.Release|x64.Build.0 = Release|x64
+		{0945628A-E3F8-478A-B151-3A0EE17C0675}.Release|x86.ActiveCfg = Release|Win32
+		{0945628A-E3F8-478A-B151-3A0EE17C0675}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
